@@ -1,0 +1,141 @@
+/* 
+    First Site
+                 */
+                
+.seat-preferences {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-of-seats {
+    margin-left: 30px;
+    width: 140px;
+    height: 25px;
+}
+
+.seats-close {
+    margin-top: 25px;
+}
+
+.seats-close label {
+    margin-left: 15px;
+}
+
+.choose-seats {
+    margin-top: 25px;
+    background: transparent;
+    height: 45px;
+    width: 274px;
+    border-width: 1px;
+}
+
+
+/* 
+    Seckond Site
+                   */
+
+.main-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.visible-td,
+.empty-td,
+.booked-td,
+.seats-proposal-td,
+.booked-seats table tr td,
+.free-seats table tr td,
+.your-seats table tr td {
+    width: 60px;
+}
+               
+.visible-td {
+    border: 1px solid black;
+}
+
+.main-table {
+    border-collapse: separate;
+    border-spacing: 12px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+tr {
+    height: 60px;
+}
+
+.booked-td {
+    background-color:#464646;
+}
+
+.seats-proposal-td {
+    background-color:#fa751c;
+}
+
+.free-seats,
+.booked-seats,
+.your-seats {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.free-seats table,
+.booked-seats table,
+.your-seats table {
+    margin-right: 15px;
+}
+
+p {
+    margin-right: 78px;
+}
+
+.booked-seats table tr td {
+    background-color:#464646;
+}
+
+.free-seats table tr td,
+.booked-seats table tr td,
+.your-seats table tr td {
+    border: 1px solid black;
+}
+
+.your-seats table tr td {
+    background-color:#fa751c;
+}
+
+.legend {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.booking-button {
+    width: 208px;
+    margin-top: 40px;
+    margin-left: 65px;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+
+/* 
+    Third Site
+                   */
+
+.reservation-info {
+    margin-left: 40px;
+}
+
+.reservation-info p {
+    font-size: 22px;
+}
+
+.reservation-info p:nth-child(2),
+.reservation-info h2 {
+    margin-top: 50px;
+}
